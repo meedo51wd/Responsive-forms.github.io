@@ -1,0 +1,49 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Risque');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+/* The Modal (background) */
+body{
+  font-family: 'Noto Serif', serif;
+}
+
+.btn {
+  cursor: pointer;
+  color: #F5F5F5;
+  font-family: 'Risque', cursive;
+  font-size: 16px;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  padding: 14px 40px;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn-login{
+  background-color: #1E90FF;
+}
+.btn-signup{
+  background-color: #00BFFF;
+}
+
+i{
+  cursor: pointer;
+  color: Tomato;
+}
+i:hover{
+  cursor: pointer;
+}

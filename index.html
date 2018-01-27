@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sign in & Sign up</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="site description">
+  <meta name="keywords" content="<site keywords">
+  <meta name="author" content="MeeDO51">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Sign in & Sign up</h2>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    <span>Sign In</span> <i class="fa fa-sign-in fa-lg"></i>
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      <center>
+
+        <!-- Modal Header -->
+        <div class="modal-header" style="background-color: #94b8b8;">
+          <h4 class="modal-title">Sign In</h4>
+          <button type="button" class="close" data-dismiss="modal"><i class="fa fa-window-close-o fa-lg"></i></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <a href=""><img src="img/twitter.png" class="rounded-circle" alt="twitter" /></a>
+          <a href=""><img src="img/facebook.png" alt="facebook" /></a>
+          <a href=""><img src="img/googleplus.png" alt="googleplus" /></a>
+          <hr>
+          <form action="/action_page.php" style="text-align: left;">
+          <div class="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email" placeholder="Email Address..">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Password..">
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox"> Remember me
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign In</button>
+        </form>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <a href="">Forgot your password?</a>
+          Don't have an account? <a href="">Sign Up</a>
+        </div>
+      </center>
+      </div>
+    </div>
+  </div>
+
+<!-- SIGN UP MODAL -->
+    <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModals">
+    <span>Sign Up</span> <i class="fa fa-user-plus fa-lg"></i>
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModals">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      <center>
+        <!-- Modal Header -->
+        <div class="modal-header" style="background-color: #94b8b8;">
+          <h4 class="modal-title">Sing Up</h4>
+          <button type="button" class="close" data-dismiss="modal"><i class="fa fa-window-close-o fa-lg"></i></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <a href=""><img src="img/twitter.png" class="rounded-circle" alt="twitter" /></a>
+          <a href=""><img src="img/facebook.png" alt="facebook" /></a>
+          <a href=""><img src="img/googleplus.png" alt="googleplus" /></a>
+          <hr>
+          <form action="/action_page.php" style="text-align: left;">
+          <div class="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email" placeholder="Email Address..">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Password..">
+          </div>
+          <div class="form-group">
+            <label for="cfpwd">Confirm Password:</label>
+            <input type="password" class="form-control" id="cfpwd" placeholder="Confirm Password..">
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox"> I have read the <a href="">Terms of Use</a>, and I agree.
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign Up</button>
+        </form>
+        </div>
+
+      </center>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- This project was created by MeeDO51 -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="ajax/jquery/jquery.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>

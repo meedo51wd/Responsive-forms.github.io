@@ -1,0 +1,15 @@
+﻿# Project Name: Responsive Sign in & Sign up.
+
+# Project's Idea:
+Responsive sign in and sign up form with modal.
+
+# Project Features:
+- Responsive.
+- Modal Sign in form
+- Modal Sign up form
+- Sign in by E-mail or by social media.
+- Sign up by E-mail or by social media.
+
+# Project Author: Ahmed Alsaleh (MeeDO51).
+
+You cant try this project by visiting demo.meedo51.pro/signin&up
