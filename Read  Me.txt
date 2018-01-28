@@ -12,4 +12,4 @@ Responsive sign in and sign up form with modal.
 
 # Project Author: Ahmed Alsaleh (MeeDO51).
 
-You cant try this project by visiting demo.meedo51.pro/signin&up
+You can try this project by visiting demo.meedo51.pro/signin&up
